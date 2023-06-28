@@ -1,0 +1,816 @@
+body {
+    font-family: Avenir, sans-serif;
+    background-color: #040714;
+}
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+/*                                            Header                                             */
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+/* Background */
+
+header {
+    height: 100vh;
+    background-image: url(../IMG/background-disney-plus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .margin {
+    margin-top: 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 36px 0 0;
+}
+
+#login-button {
+
+    position: fixed;
+
+    color: #F9F9F9;
+    background-color: black;
+    border: 1px solid silver;
+
+    border-radius: 5px;
+    padding: 12px 18px 12px 18px;
+
+    font-size: 18px;
+    
+    text-decoration: none;
+
+}
+
+#login-button:hover {
+    color: black;
+    background-color: #F9F9F9;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+.header-container {
+    width: 35%;
+    text-align: left;
+}
+
+
+.img-logo-disney {
+    width: 180px;
+    height: 97.95px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    letter-spacing: normal;
+}
+
+.subtitle {
+    color: #C0C0C0;
+
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#header-search {
+    display: flex;
+    width: 100%;
+}
+
+#email {
+    color: #7E8084;
+    background-color: #31343E;
+    border: 0 solid #31343E;
+    border-radius: 7.5px 0 0 7.5px;
+    padding: 14px 0 14px 8px;
+    width: 100%;
+}
+
+#continue-button {
+    color: white;
+    background-color: #0063E5;
+    padding: 14px 44px 14px 44px;
+    border: 0 solid #0063E5;
+    border-radius: 0 7.5px 7.5px 0;
+}
+
+#continue-button:hover {
+    cursor: pointer;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.arrow-space {
+    padding-top: 50px;
+}
+
+.down-arrow {
+    width: 20px;
+    height: 20px;
+
+
+    border-style: solid;
+    border-color: silver;
+    border-width: 0px 2px 2px 0px;
+
+    box-sizing: border-box;
+
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+
+    animation: bounce 2s ease infinite;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        /* transform: translateY(0); */
+        margin-top: 0px;
+    }
+    40% {
+        /* transform: translateY(-30px); */
+        margin-top: 20px;
+    }
+    60% {
+        /* transform: translateY(-15px); */
+        margin-top: 10px;
+    }
+}
+
+.down-arrow:hover {
+    border-color: white;
+    cursor: pointer;
+}
+
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+/*                                            Zone n°1                                           */
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+/* Background */
+
+.zone-01 {
+    height: 100vh;
+    background-image: url(../IMG/fond-ecran-zone-01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#zone-01-space {
+    position: absolute;
+    padding-top: 15%;
+}
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+/*                                            Zone n°2                                           */
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+.zone-02-text {
+    background-color: #040714;
+    text-align: center;
+}
+
+/* Background */
+
+.zone-02-img {
+    height: 100vh;
+    background-image: url(../IMG/logo-kenobi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+/*                                            Zone n°3                                           */
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+.zone-03 {
+    background-color: #040714;
+    padding: 100px 0 100px 0;
+    display: block;
+}
+
+.zone-03-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.zone-03-bloc {
+    text-align: center;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.zone-03-bloc img {
+    width: 70%;
+}
+
+.zone-03-title {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 54px;
+    letter-spacing: normal;
+}
+
+.zone-03-subtitle {
+    color: #C0C0C0;
+
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+/*                                            Zone n°4                                           */
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+.zone-04 {
+    background: #040714;
+    text-align: center;
+}
+
+.title-faq {
+
+    color: white;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    letter-spacing: normal;
+}
+
+.zone-04-dropdown {
+    max-width: 90%;
+    height: 63px;
+    border-radius: 5px;
+    margin: 20px auto;
+    color: #f1f1f1;
+    background: #13151D;
+    transition: height 0.4s ease-in-out;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.zone-04-button {
+    padding: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #13151D;
+    color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.zone-04-button img {
+    width: 20px
+}
+
+
+.zone-04-sub-bloc {
+    padding: 0 22px;
+    text-align: start;
+}
+
+.zone-04-sub-bloc li {
+    list-style-type: none;
+    color: silver;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+
+.zone-04-sub-bloc li:last-child{
+    padding-bottom: 25px;
+}
+
+
+.zone-04 a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+/*                                            Zone n°5                                           */
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+.zone-05 {
+    background: #040714;
+    text-align: center;
+
+    padding: 150px 0 150px 0;
+}
+
+.zone-05-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.zone-05-bloc {
+    text-align: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.zone-05-bloc img {
+    padding-top: 50px;
+    width: 70%;
+}
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+/*                                            Footer                                             */
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+footer {
+    background: #040714;
+    text-align: center;
+    padding: 25px 0 75px 0;
+}
+
+footer ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #C0C0C0;
+    font-size: 12px;
+    line-height: 22px;
+
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+}
+
+footer li a:hover {
+    color: #f1f1f1;
+}
+
+footer img {
+    width: 80px;
+    height: 43.53px;
+}
+
+.footer-text {
+    color: #C0C0C0;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#language {
+    color: #C0C0C0;
+    font-size: 12px;
+    line-height: 22px;
+    background-color: #040714;
+    border-color: #040714;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1025px) {
+
+    .margin {
+        margin-left: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 1025px) {
+
+
+    header {
+        height: 65vh;
+        background-image: url(../IMG/background-disney-plus.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .zone-01 {
+        position: relative;
+
+        margin: 0 auto 0 auto;
+
+        width: 90%;
+        height: 45vh;
+
+
+        background-image: url(../IMG/fond-ecran-zone-01.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        padding-bottom: 200px;
+        background-position-y: 80%;
+    }
+
+
+
+    .zone-02-img {
+
+
+        height: 30vh;
+        background-image: url(../IMG/logo-kenobi.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+    .margin {
+        margin-left: 0%;
+    }
+    
+    .header-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-logo-disney {
+        display: block;
+        margin: 150px auto 0 auto;
+        width: 130px;
+        height: 70.75px;
+    }
+
+    .title {
+        padding: 0 10% 0 10%;
+    }
+    
+    .subtitle {
+        padding: 0 10% 0 10%;
+    }
+
+
+
+
+
+    #header-search {
+        display: flex;
+        margin: auto;
+        width: 80%;
+    }
+
+    #email {
+        color: #7E8084;
+        background-color: #31343E;
+        border: 0 solid #31343E;
+        border-radius: 7.5px 0 0 7.5px;
+        padding: 14px 0 14px 8px;
+        width: 100%;
+    }
+
+    #continue-button {
+        color: white;
+        background-color: #0063E5;
+        padding: 14px 44px 14px 44px;
+        border: 0 solid #0063E5;
+        border-radius: 0 7.5px 7.5px 0;
+    }
+    
+
+    .title-faq {
+        font-size: 28px;
+        line-height: 54px;
+        letter-spacing: normal;
+    }
+
+
+    .arrow-space {
+        padding-top: 50px;
+    }
+
+    .down-arrow {
+        width: 15px;
+        height: 15px;
+        margin: 0 auto 0 auto;
+    
+    }
+}
+
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+/*                                            Version Mobile                                     */
+
+
+/* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    /* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+    /*                                            Header                                             */
+
+
+    /* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+    header {
+        height: 90vh;
+        background-image: url(../IMG/background-disney-plus.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .zone-01 {
+        position: relative;
+
+        margin: 0 auto 0 auto;
+
+        width: 90%;
+        height: 35vh;
+
+
+        background-image: url(../IMG/fond-ecran-zone-01.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        padding-bottom: 175px;
+        background-position-y: 70%;
+    }
+
+    .zone-02-img {
+        height: 30vh;
+        background-image: url(../IMG/logo-kenobi.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+
+
+
+    
+    header .margin {
+        margin-top: 10%;
+    }
+
+    .margin {
+        margin: 0%;
+    }
+
+    .header-container {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    nav {
+        padding: 10px 26px 0 0;
+    }
+
+    #login-button {
+
+        padding: 10px 14px 10px 14px;
+    
+        font-size: 12px;
+
+    }
+
+    .img-logo-disney {
+        display: block;
+        margin: 150px auto 0 auto;
+        width: 130px;
+        height: 70.75px;
+    }
+
+    .title {
+        font-size: 24px;
+        padding: 0 15px 0 15px;
+    }
+    
+    .subtitle {
+        font-size: 16px;
+        padding: 0 15px 0 15px;
+    }
+
+
+    #header-search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    #email {
+        border-radius: 7.5px;
+        width: 90%;
+    }
+    
+    #continue-button {
+        margin-top: 10px;
+        border-radius: 7.5px;
+        width: 92%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .arrow-space {
+        padding-top: 50px;
+    }
+
+    .down-arrow {
+        width: 15px;
+        height: 15px;
+        margin: 0 auto 0 auto;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+    /*                                            Zone n°1                                           */
+
+
+    /* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+    #zone-01-space {
+        position: relative;
+        padding-top: 0px;
+    }
+
+    /* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+    /*                                            Zone n°3                                           */
+
+
+    /* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+    .zone-03 {
+        padding: 50px 0 50px 0;
+    }
+
+    .zone-03-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .zone-03-bloc {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    
+    .zone-03-bloc img {
+        width: 70%;
+    }
+
+    /* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+
+    /*                                            Zone n°5                                           */
+
+
+    /* ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   --- */
+
+    .zone-05 {
+        padding: 75px 25px 75px 25px;
+    }
+
+    .zone-05-bloc p {
+        font-size: 18px;
+    }
+
+    .zone-05-bloc span {
+        font-size: 16px;
+    }
+
+    .zone-05-section {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .zone-05-bloc {
+        text-align: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .zone-05-bloc img {
+        padding-top: 50px;
+        width: 75%;
+    }
+
+
+
+
+    footer li {
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+}
